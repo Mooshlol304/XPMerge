@@ -1,0 +1,19 @@
+name: XpMerge
+version: '1.0.0'
+main: xyz.moosh.xpMerge.XpMerge
+api-version: '1.21.10'
+folia-supported: true
+description: Merges nearby experience orbs into one to reduce lag.
+authors:
+  - moosh
+
+commands:
+  xpmerge:
+    description: XpMerge admin commands
+    usage: /xpmerge <reload|status>
+    permission: xpmerge.admin
+
+permissions:
+  xpmerge.admin:
+    description: Access to XpMerge commands.
+    default: op

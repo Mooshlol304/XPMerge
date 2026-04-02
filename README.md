@@ -1,0 +1,1 @@
+This is a Folia-compatible plugin for Minecraft that merges nearby experience orbs into one to reduce lag.
