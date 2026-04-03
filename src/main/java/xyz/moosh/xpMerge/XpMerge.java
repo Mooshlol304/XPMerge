@@ -60,12 +60,12 @@ import xyz.moosh.xpMerge.task.OrbMergeTask;
 
     /** Ticks between each merge sweep. Minimum 1. */
     public long getMergeInterval() {
-        return Math.max(1, getConfig().getInt("merge-interval", 40));
+        return Math.max(1, getConfig().getInt("merge-interval", 5));
     }
 
     /** Block radius within which orbs are merged together. Minimum 0.5. */
     public double getMergeRadius() {
-        return Math.max(0.5, getConfig().getDouble("merge-radius", 3.0));
+        return Math.max(0.5, getConfig().getDouble("merge-radius", 20.00));
     }
 
     /** If true, logs every merge to console. */

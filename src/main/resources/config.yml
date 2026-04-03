@@ -1,10 +1,10 @@
 # How many ticks between each merge sweep. 20 ticks = 1 second.
 # Lower = more aggressive merging, slightly more CPU. Minimum: 1.
-merge-interval: 40
+merge-interval: 5
 
 # Block radius within which orbs are merged together.
 # All orbs within this distance of each other collapse into one.
-merge-radius: 3.0
+merge-radius: 20.00
 
 # Print a line to console every time orbs are merged. Turn off in production.
 debug: false
